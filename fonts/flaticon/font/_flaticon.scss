@@ -1,12 +1,13 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 25/08/2018 14:33
+    Creation date: 02/08/2020 11:53
     */
 
     @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -36,10 +37,24 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-charity:before { content: "\f100"; }
-.flaticon-donation-1:before { content: "\f101"; }
-.flaticon-donation:before { content: "\f102"; }
+    .flaticon-architect-6:before { content: "\f100"; }
+.flaticon-architect:before { content: "\f101"; }
+.flaticon-architecture:before { content: "\f102"; }
+.flaticon-architect-1:before { content: "\f103"; }
+.flaticon-architect-2:before { content: "\f104"; }
+.flaticon-presentation:before { content: "\f105"; }
+.flaticon-architect-3:before { content: "\f106"; }
+.flaticon-architect-4:before { content: "\f107"; }
+.flaticon-architect-5:before { content: "\f108"; }
+.flaticon-architect-7:before { content: "\f109"; }
     
-    $font-Flaticon-charity: "\f100";
-    $font-Flaticon-donation-1: "\f101";
-    $font-Flaticon-donation: "\f102";
+    $font-Flaticon-architect-6: "\f100";
+    $font-Flaticon-architect: "\f101";
+    $font-Flaticon-architecture: "\f102";
+    $font-Flaticon-architect-1: "\f103";
+    $font-Flaticon-architect-2: "\f104";
+    $font-Flaticon-presentation: "\f105";
+    $font-Flaticon-architect-3: "\f106";
+    $font-Flaticon-architect-4: "\f107";
+    $font-Flaticon-architect-5: "\f108";
+    $font-Flaticon-architect-7: "\f109";
