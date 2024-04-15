@@ -23,9 +23,9 @@
 
   <!-- https://gianmarco.xyz/ -->
   <!-- tailwind  -->
-  <section class="bg-black max-h-full">
+  <section class="bg-black">
     <div class="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
-      <div class="grid sm:grid-rows-4 sm:grid-cols-4 grid-rows-9 grid-cols-4 gap-4 h-full">
+      <div class="grid sm:grid-rows-4 sm:grid-cols-4 grid-rows-9 grid-cols-4 gap-4">
         <div class="row-span-1 col-span-4 sm:row-span-1 sm:col-span-3">
           <div class="transform rounded-xl card-color testimonial-v1 shadow-xl h-full flex flex-col transition duration-300 hover:scale-y-105">
             <div class="row h-full">
@@ -34,12 +34,10 @@
                 <!-- ## DON'T FORGOT TO UPDATE SMALL SCREEN CODE THAT IS SAPARATED BELOW -->
                 <div class="col-8 justify-center text-left hidden md:block">
                   <div class="text-sm mt-5">
-                      <a href="#" class="font-medium leading-none text-white transition duration-500 ease-in-out">
-                        Jane Doe
-                      </a>
-                      <p class="gsap-reveal-hero text-white">Blogger &amp; Youtuber</p>
+                      <p class="gsap-reveal-hero text-xs text-white">Welcome</p>                      
+                      <!-- <p class="gsap-reveal-hero text-white">Blogger &amp; Youtuber</p> -->
                   </div>          
-                  <p class="mt-2 text-sm text-white">Hi, I'm Gianmarco Cavallo, a software developer with strong focus on the user experience, animations and micro interactions</p>
+                  <p class="mt-2 text-white"><span class="gsap-reveal-hero">Hi, I'm <a href="#" class="font-medium leading-none text-white transition duration-500 ease-in-out">Nikk Pavra</a>, a software developer with</span><span class="gsap-reveal-hero"> strong focus on the user experience,</span><span class="gsap-reveal-hero"> animations and micro interactions.</span></p>
           
                   <div class="flex mt-4 justify-left content-end">
                       <a href="#" class="w-9 mx-1">
@@ -117,15 +115,13 @@
                 </div>
 
               <!-- Image as background on small screens -->
-              <div class="col-12 md:hidden" style="background-image: url('https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png'); background-size: cover; background-position: center;">
+              <div class="col-12 text-left md:hidden" style="background-image: url('https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png'); background-size: cover; background-position: center;">
                 <div class="text-sm mt-5">
-                  <a href="#" class="font-medium leading-none text-white transition duration-500 ease-in-out">
-                    Jane Doe
-                  </a>
-                  <p class="gsap-reveal-hero text-white">Blogger &amp; Youtuber</p>
+                  <p class="gsap-reveal-hero text-xs text-white">Welcome</p>                      
+                  <!-- <p class="gsap-reveal-hero text-white">Blogger &amp; Youtuber</p> -->
                 </div>          
-                <p class="mt-2 text-sm text-white">Hi, I'm Gianmarco Cavallo, a software developer with strong focus on the user experience, animations and micro interactions</p>
-      
+                <p class="mt-2 text-white"><span class="gsap-reveal-hero">Hi, I'm <a href="#" class="font-medium leading-none text-white transition duration-500 ease-in-out">Nikk Pavra</a>,</span><span class="gsap-reveal-hero"> a software developer with strong</span><span class="gsap-reveal-hero"> focus on the user experience,</span><span class="gsap-reveal-hero"> animations and micro interactions.</span></p>
+                
                 <div class="flex mt-4 justify-left content-end">
                     <a href="#" class="w-9 mx-1">
                         <svg class="fill-current cursor-pointer text-gray-500 active:translate-x-[2px] active:translate-y-[2px]" width="100%" height="100%"
@@ -305,25 +301,17 @@
             </div>
           </div>
         </div>
-        <div class="row-span-1 col-span-4 sm:row-span-1 sm:col-span-1">
-          <div class="transform rounded-xl card-color testimonial-v1 shadow-xl h-full flex flex-col transition duration-300 hover:scale-y-105">
-            <div class="h-full justify-center items-center">
-                <h1 class="heading gsap-reveal-hero mb-3"><strong>Project<span class="text-primary">.</span> Test</strong></h1>
-                <h2 class="subheading gsap-reveal-hero mb-4">
-                  A minimal, clean, and AJAX driven free portfolio template created by the fine folks at <strong>Untree.co</strong>. 
-                </h2>
-                <p class="gsap-reveal-hero"><a href="#" target="_blank" class="btn btn-outline-black">More free templates here</a></p>  
-            </div>
+        <div class="row-span-1 col-span-4 sm:row-span-1 sm:col-span-1 h-auto sm:h-auto">
+          <div class="transform rounded-xl card-color testimonial-v1 shadow-xl flex flex-col transition duration-300 hover:scale-y-105">
+            <!-- <div class="h-fit sm:h-full justify-center items-center">
+              <p class="gsap-reveal-hero text-white text-sm">© All Rights Reserved. &mdash; Designed with ♥️ by Nikk</p>  
+            </div> -->
           </div>
         </div>
         <div class="row-span-1 col-span-4 sm:row-span-1 sm:col-span-1">
-          <div class="transform rounded-xl card-color testimonial-v1 shadow-xl h-full flex flex-col transition duration-300 hover:scale-y-105">
-            <div class="h-full justify-center items-center">
-                <h1 class="heading gsap-reveal-hero mb-3"><strong>Project<span class="text-primary">.</span> Test</strong></h1>
-                <h2 class="subheading gsap-reveal-hero mb-4">
-                  A minimal, clean, and AJAX driven free portfolio template created by the fine folks at <strong>Untree.co</strong>. 
-                </h2>
-                <p class="gsap-reveal-hero"><a href="#" target="_blank" class="btn btn-outline-black">More free templates here</a></p>  
+          <div class="transform rounded-xl card-color testimonial-v1 shadow-xl h-fit sm:h-full flex flex-col transition duration-300 hover:scale-y-105">
+            <div class="h-fit sm:h-full justify-center items-center">
+                <p class="gsap-reveal-hero text-white text-sm">© All Rights Reserved. &mdash; Designed with ♥️ by Nikk</p>  
             </div>
           </div>
         </div>
