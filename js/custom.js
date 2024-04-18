@@ -51,6 +51,22 @@ $(function(){
 
 })
 
+function updateCurrentTime() {
+	const currentDate = new Date();
+	const ISTOptions = { timeZone: 'Asia/Kolkata' }; // 'Asia/Kolkata' is the IANA timezone identifier for IST
+	const ISTDateString = currentDate.toLocaleString('en-US', ISTOptions);
+	const timezone = 'IST';
+	const timeString = `${ISTDateString} ${timezone}`;
+
+	document.getElementById('current-time').textContent = timeString;
+}
+
+// Update time every second
+setInterval(updateCurrentTime, 1000);
+
+// Initial call to display time immediately
+updateCurrentTime();
+
 
 
 
