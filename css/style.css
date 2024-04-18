@@ -60,7 +60,7 @@ a {
 a.text-primary {
   color: #e63946 !important; }
   a.text-primary:hover {
-    color: #e63946 !important; }
+    color: rgb(34, 197, 94) !important; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-family: "Montserrat", sans-serif;
@@ -249,7 +249,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       margin-left: -100%;
       z-index: 2; }
     .gsap-reveal-hero .reveal-wrap .reveal-content {
-      line-height: 1.5;
+      /* line-height: 0.5; */
       z-index: 1;
       display: inline-block;
       -webkit-transform: translateX(-100%);
@@ -284,7 +284,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .testimonial-v1 .caption {
     font-size: 13px; } */
   .testimonial-v1:hover {
-    border-color: #e63946; }
+    border-color: #cc2f3c; }
 
 .card-color{
   background-color: #111111;
