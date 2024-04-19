@@ -1,6 +1,6 @@
 body {
-  font-family: "PT Mono", monospace;
-  line-height: 1.6;
+  /* font-family: "PT Mono", monospace; */
+  /* line-height: 1.6; */
   /* background: #000; */
   overflow-x: hidden;
   font-size: 16px; }
@@ -113,7 +113,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   height: 100%;
   position: fixed;
   z-index: 7100;
-  background: #ffffff;
+  background: #000000;
   top: 0;
   left: 0;
   right: 0;
@@ -288,4 +288,27 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .card-color{
   background-color: #111111;
+}
+
+.cust-img-1{
+  background-image: url('../bg-1.jpg');
+  background-size: cover; 
+  background-position: center;
+}
+
+.cust-img-2{
+  background-image: url('../bg-2.jpg');
+  background-size: cover; 
+  background-position: center;
+}
+
+@media only screen and (max-width: 1536px) {
+
+  .cust-img-2{
+    background-image: url('../bg-2.jpg');
+    background-size: cover; 
+    /* background-position: right; */
+    /* background-size: 700px; */
+    background-position-x: 80%;
+  }
 }
